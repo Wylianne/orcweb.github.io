@@ -60595,7 +60595,7 @@ q=r.e.c
 $.aAy=q
 if($.Ik())p="IOS"
 else p=$.Ij()?"ANDROID":""
-o="http://172.40.1.7:9191/rest/ctrver/VALIDAR?APP=ORCAMENTO MOBILE&CODUSER=null&PLATAFORMA="+p+"&VERSAO="+H.d(q)
+o="http://190.15.121.162:9061/rest/ctrver/VALIDAR?APP=ORCAMENTO MOBILE&CODUSER=null&PLATAFORMA="+p+"&VERSAO="+H.d(q)
 P.au(o)
 u=3
 return P.Y(G.ajo(o),$async$pB)
@@ -60706,7 +60706,7 @@ i=j.a
 h=j.b
 C.d.sl($.aA,0)
 u=2
-return P.Y(G.dB("http://172.40.1.7:9191/rest/AUTHUSER?USR="+H.d(i)+"&PWD="+H.d(h)+"&APP=ORCAMENTO MOBILE",null),$async$la)
+return P.Y(G.dB("http://190.15.121.162:9061/rest/AUTHUSER?USR="+H.d(i)+"&PWD="+H.d(h)+"&APP=ORCAMENTO MOBILE",null),$async$la)
 case 2:r=b
 if(r.b===200){j=r.e
 q=B.aL(U.aK(j).c.a.h(0,"charset"))
@@ -60727,7 +60727,7 @@ $.b5=q
 $.aA=[]
 for(j=J.an(p),q=P.l,m=0;m<j.gl(p);++m){$.aru.push(j.h(p,m))
 $.azn.push(J.e(j.h(p,m),"codCargo"))
-$.aA.push(P.am(["filial",J.e(j.h(p,m),"filial"),"vendedor",J.e(j.h(p,m),"codVend"),"cargo",J.e(j.h(p,m),"codCargo"),"percDesconto",J.aj(J.e(j.h(p,m),"percDesconto"),2),"nomeCargo",J.e(j.h(p,m),"nomeCargo"),"url",J.ak1(J.e(j.h(p,m),"ip"),"9192","9193"),"sigla",J.e(j.h(p,m),"sigla"),"uf",J.e(j.h(p,m),"uf"),"nomeEmpresa",J.e(j.h(p,m),"nomeEmpresa"),"grupoEmpresas",J.e(j.h(p,m),"grupoEmpresas"),"enderecoEmpresa",J.e(j.h(p,m),"enderecoEmpresa"),"cidadeEmpresa",J.e(j.h(p,m),"cidadeEmpresa"),"ufEmpresa",J.e(j.h(p,m),"ufEmpresa"),"bairroEmpresa",J.e(j.h(p,m),"bairroEmpresa"),"cepEmpresa",J.e(j.h(p,m),"cepEmpresa")],q,null))}if(j.gl(p)>0){$.d9=J.e($.aA[0],"vendedor")
+$.aA.push(P.am(["filial",J.e(j.h(p,m),"filial"),"vendedor",J.e(j.h(p,m),"codVend"),"cargo",J.e(j.h(p,m),"codCargo"),"percDesconto",J.aj(J.e(j.h(p,m),"percDesconto"),2),"nomeCargo",J.e(j.h(p,m),"nomeCargo"),"url",J.ak1(J.e(j.h(p,m),"ip"),"172.40.1.7:9191","190.15.121.162:9061"),"sigla",J.e(j.h(p,m),"sigla"),"uf",J.e(j.h(p,m),"uf"),"nomeEmpresa",J.e(j.h(p,m),"nomeEmpresa"),"grupoEmpresas",J.e(j.h(p,m),"grupoEmpresas"),"enderecoEmpresa",J.e(j.h(p,m),"enderecoEmpresa"),"cidadeEmpresa",J.e(j.h(p,m),"cidadeEmpresa"),"ufEmpresa",J.e(j.h(p,m),"ufEmpresa"),"bairroEmpresa",J.e(j.h(p,m),"bairroEmpresa"),"cepEmpresa",J.e(j.h(p,m),"cepEmpresa")],q,null))}if(j.gl(p)>0){$.d9=J.e($.aA[0],"vendedor")
 $.ax=J.e($.aA[0],"filial")
 $.xh=J.aj(J.e(j.h(p,0),"percDesconto"),2)
 $.aU=J.e($.aA[0],"url")
